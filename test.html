@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">-->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <form action="localhost:88/RikshaCustomer/customerregistration.php" method="POST" enctype="multipart/form-data">
+    <div class="container">
+  <div id="mdb-preloader" class="flex-center">
+    <div id="preloader-markup"></div>
+  </div>
+  <!-- Start your project here-->
+  <div class="col-sm-12" style="margin-top: 20px;padding-top: 10px;">
+    <center><img src="logo1.png"  height="100" width="100" alt=""><br>
+      <h2>Registration</h2>
+    </center>
+
+    <div class="row">
+        <div class="col">
+        <label for="first_name">First name</label>
+        <input type="text" id="first_name" class="form-control" name="first_name" disabled required>
+        </div>
+<div class="col">
+        <label for="last_name">Last name</label>
+<input type="text" id="last_name" class="form-control" name="last_name" disabled required>
+
+</div>
+</div>
+
+
+
+<div class="md-form">
+<input type="text" id="mobile_no" class="form-control" name="mobile_no" required>
+<label for="mobile_no">Mobile No.</label>
+</div>
+<div class="md-form">
+<input type="text" id="adhar_no" class="form-control" name="adhar_no" required>
+<label for="adhar_no">Adhar No.</label>
+<div  class="md-form">
+  I am:
+ <select style="border:1px solid #f8f9fa" class="form-control " name="gender" required>
+         <option value="Male">Male</option>
+        <option value="Female">Female</option>
+       </select>
+   </div>
+ <div class="md-form">
+   Date
+<input type="date" id="date-picker-example" class="form-control datepicker" name="date" required>
+</div>
+<div class="md-form">
+<input type="email" id="email" class="form-control" name="email" required>
+<label for="email">Email</label>
+</div>
+<div class="md-form">
+<input type="password" id="password" class="form-control" name="password" required>
+<label for="password">Password</label>
+</div>
+<div class="md-form">
+<input type="password" id="conform_password" class="form-control" name="password2" required>
+<label for="conform_password">Conform Password</label></div>
+
+<div class="md-form">
+<input type="text" id="address" class="form-control" name="address" required>
+<label for="address">Address</label></div>
+<!--<div  class="md-form">
+  Type:
+ <select style="border:1px solid #f8f9fa" class="form-control " name="type" required>
+         <option value="customer">Customer</option>
+        <option value="driver">Driver</option>
+        <option value="admin">Admin</option>
+       </select>
+   </div>-->
+   <div class="input-group">
+
+<div class="custom-file">
+  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="photo" required>
+  <label class="custom-file-label" for="inputGroupFile01">Photo</label>
+</div>
+</div><br>
+<div class="input-group">
+
+<div class="custom-file">
+  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="adharcard" required>
+  <label class="custom-file-label" for="inputGroupFile01">Adhar card</label>
+</div>
+</div><br>
+<div class="custom-file">
+  <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" name="license" required>
+  <label class="custom-file-label" for="inputGroupFile01">License</label>
+</div>
+</div>
+<div class="md-form">
+<input type="submit" style="background-color: #f7c60b" class="btn" value="Register" name="submit" >
+</div>
+Already register user?<a href="login.html">Log in</a>
+
+</div>
+</div>
+</form>
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+</body>
+
+</html>
